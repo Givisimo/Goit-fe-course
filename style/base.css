@@ -1,0 +1,9 @@
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-list{
+    text-align: center;
+    margin-top: 20vh;
+}
