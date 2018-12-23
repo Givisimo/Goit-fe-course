@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     color: #626262;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Ubuntu', serif;
 }
 
 .wrapper{
@@ -51,11 +51,11 @@ main {
 .article-item {
     display: inline-block;
     width: 420px;
-    margin: 0 0 130px 0;
+    margin-bottom: 130px;
 }
 
 .article-item:nth-child(odd) {
-    margin: 0 56px 0 0;
+    margin-right: 56px;
 }
 
 .article-item:nth-child(5),:nth-child(6) {
@@ -63,18 +63,19 @@ main {
 }
 
 .article-image{
-    margin: 0 0 30px 0;
+    margin-bottom: 30px;
 }
 
 .article-category {
-    margin: 0 0 30px 0;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: #b4ad9e;
     font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .article-heading {
-    margin: 0 0 40px 0;
+    margin-bottom: 40px;
     font-size: 30px;
 }
 
@@ -89,7 +90,7 @@ main {
 
 
 .load_more {
-    margin: 0 0 70px 0;
+    margin-bottom: 70px;
     padding: 15px 40px;
     border: 1px solid black;
     background-color: rgba(0, 0, 0, 0)
