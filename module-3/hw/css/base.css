@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
     color: #626262;
-    font-family: 'Playfair Display', 'Ubuntu', serif;
+    font-family: 'Playfair Display', serif;
 }
 
-.wrapper{
+.wrapper {
     width: 900px;
     margin: 0 auto;
 }
 
-.navbar{
+.navbar {
     list-style: none;
     margin: 77px 0 104px 0;
     text-align: center;
@@ -34,11 +34,12 @@
        margin: 0 95px 0 0;
 }
 
-.navbar_list-link{
+.navbar_list-link {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
 }
+
 .navbar_list-link:hover {
     color:#03a9f4;
 }
@@ -62,7 +63,7 @@ main {
     margin-bottom: 60px;
 }
 
-.article-image{
+.article-image {
     margin-bottom: 30px;
 }
 
