@@ -21,19 +21,11 @@
 
 .navbar_list-item {
     display: inline-block;
-
+    margin-right: 110px;
 }
 
-.navbar_list-item:first-child {
-    margin-right: 120px;
-}
-
-.navbar_list-item:nth-child(2) {
-    margin-right: 100px;
-}
-
-.navbar_list-item:nth-child(3) {
-    margin-right: 95px;
+.navbar_list-item:last-child {
+    margin-right: 0;
 }
 
 .navbar_list-link {
@@ -66,6 +58,7 @@ main {
 }
 
 .article-image {
+    width: 100%;
     margin-bottom: 30px;
 }
 
