@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    color: #626262;;
+}
+
+
+.wrapper-task1 {
+    margin: 100px auto 100px;
+    text-align: center;
+}
+
+.navbar-list-item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+    text-transform: uppercase;
+}
+
+.navbar-list-item-link {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.navbar-list-item-link:hover {
+    color: goldenrod;
+}
+
+.article-wrapper {
+    margin: 0 auto;
+    width: 470px;
+    border: 1px solid darkgrey;
+}
+
+.article {
+    width:420px;
+    margin: 40px auto;
+    display: inline-block;
+}
+
+.article-image{
+    width:420px;
+    margin-bottom: 20px;
+}
+
+.article-category {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.article-heading {
+    margin-bottom: 20px;
+}
+
+.article-wrapper-task3 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.article:last-child, .article:nth-child(2) {
+    margin-left: 20px;
+}
+
+
