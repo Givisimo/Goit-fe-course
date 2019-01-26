@@ -1,0 +1,131 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,900');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 40px auto 0;
+    width: 1110px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+.logo-wrapper {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo-text {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #555252;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.logo-text::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.navigation{
+    float:right;
+}
+
+.navigation-list_item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navigation-list_item:last-child {
+    margin-right: 0;
+}
+
+.navigation-list_item__link {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #0f0101;
+    text-transform: uppercase;
+}
+
+.navigation-list_item__link:hover {
+    color:#1abc9c;
+}
+
+.products-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.products-section-heading,
+.news-section-heading {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #515151;
+    text-align: center;
+}
+
+.products-section-heading:after,
+.news-section-heading:after {
+    content: "";
+    display: block;
+    width: 160px;
+    border-bottom: 8px solid #1abc9c;
+    margin: 30px auto 92px;
+}
+
+.products-container {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 255px;
+    height: 320px;
+    background-color: #e9f0fd;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.products-container:nth-child(n+6) {
+    margin-bottom: 100px;
+}
+
+.products-container:nth-child(4n+5) {
+    margin-right: 0;
+}
+
+.products-name_container{
+    height: 40px;
+    background-color: #323232;
+    color: #ffffff;
+}
+
+.products-name_name,
+.products-name_number{
+    display: inline-block;
+}
+
+.products-name_name {
+    width: 80%;
+
+}
+
