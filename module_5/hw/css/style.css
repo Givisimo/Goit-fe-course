@@ -1,0 +1,88 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,900');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+header,
+.slider,
+.product-section,
+footer {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+header {
+    position: relative;
+    padding-top: 40px ;
+}
+
+.logo-wrapper {
+    font-size: 32px;
+}
+
+.logo-text,
+.navigation {
+    display: inline-block;
+}
+
+.logo-text {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #555252;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.logo-text:first-letter {
+    color: #1abc9c;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.navigation {
+    position: absolute;
+    right: 0;
+
+}
+
+.navigation-list_item {
+    list-style: none;
+    display: inline-block;
+}
+
+.navigation-list_item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation-list_item-link,
+.logo-wrapper {
+    text-decoration: none;
+}
+
+.navigation-list_item {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #0f0101;
+    text-transform: uppercase;
+}
+
+.navigation-list_item:hover {
+    color: #1abc9c;
+}
+
