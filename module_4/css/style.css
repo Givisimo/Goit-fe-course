@@ -121,7 +121,8 @@ header {
 }
 
 .products-container:hover .products-name_number {
-    background-color: #7fd9c7;
+    background-color: #1abc9c;
+    opacity: .44;
     cursor: pointer;
     transition: background-color 1s;
 }
@@ -230,6 +231,7 @@ header {
     border: none;
     border-radius: 5%;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
