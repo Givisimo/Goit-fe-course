@@ -44,7 +44,7 @@ header {
     color: #1abc9c;
 }
 
-.navigation{
+.navigation {
     float:right;
 }
 
@@ -71,14 +71,13 @@ header {
     color:#1abc9c;
 }
 
-.products-section::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.products-section-heading,
-.news-section-heading {
+.section-heading {
     text-transform: uppercase;
     font-size: 48px;
     font-family: "Roboto", sans-serif;
@@ -87,8 +86,7 @@ header {
     text-align: center;
 }
 
-.products-section-heading:after,
-.news-section-heading:after {
+.section-heading:after {
     content: "";
     display: block;
     width: 160px;
@@ -120,23 +118,9 @@ header {
     cursor: pointer;
 }
 
-.products-container:hover .products-name_number {
+.products-container:hover .products-text {
     background-color: #1abc9c;
-    opacity: .44;
-    cursor: pointer;
     transition: background-color 1s;
-}
-
-.products-container:hover .products-name_name {
-    background-color: #1abc9c;
-    cursor: pointer;
-    transition: background-color 1s;
-}
-
-.products-container:after {
-    content:"";
-    display: table;
-    clear: both;
 }
 
 .products-link {
@@ -145,6 +129,10 @@ header {
 
 .products-img {
     display: block;
+}
+
+.products-text {
+    background-color: #323232;
 }
 
 .products-name_name,
@@ -157,15 +145,13 @@ header {
     float: left;
     width: 80%;
     padding-left: 15px;
-    background-color: #323232;
     color: #ffffff;
 }
 
 .products-name_number {
     float: right;
     width: 20%;
-    background-color: #323232;
-    opacity: .44;
+    background-color: rgba(255, 255, 255, 0.44);
     text-align: center;
     color: #ffffff;
 }
@@ -177,12 +163,6 @@ header {
 
 .news-container {
     margin-bottom: 45px;
-}
-
-.news-container:after {
-    display: table;
-    content:'';
-    clear: both;
 }
 
 .news-item {
