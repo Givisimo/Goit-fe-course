@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e7cc17f0-2575-4bda-bc76-7e87bb7d3836" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module_5/hw/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module_5/hw/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module_5/hw/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module_5/hw/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../module_5/hw/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module_5/hw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module_5/hw/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+                <state relative-caret-position="376">
+                  <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-866">
-                  <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+                <state relative-caret-position="-245">
+                  <caret line="105" column="30" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="105" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -72,6 +73,7 @@
       <list>
         <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/../reset.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -86,25 +88,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="module_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module_4" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -142,12 +126,21 @@
       <workItem from="1548431810816" duration="29646000" />
       <workItem from="1548875482156" duration="4211000" />
       <workItem from="1548938346591" duration="6094000" />
-      <workItem from="1548972711261" duration="2254000" />
+      <workItem from="1548972711261" duration="2834000" />
+      <workItem from="1548979574543" duration="14000" />
+      <workItem from="1550019367822" duration="37000" />
+      <workItem from="1551192187221" duration="15000" />
+      <workItem from="1551196909210" duration="390000" />
+      <workItem from="1551199313941" duration="82000" />
+      <workItem from="1551202142690" duration="1964000" />
+      <workItem from="1551227912763" duration="62000" />
+      <workItem from="1551230641399" duration="143000" />
+      <workItem from="1551231030709" duration="762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48289000" />
+    <option name="totallyTimeSpent" value="52338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -165,7 +158,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -198,17 +191,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+        <state relative-caret-position="376">
+          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-866">
-          <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+        <state relative-caret-position="-245">
+          <caret line="105" column="30" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="105" selection-end-column="30" />
         </state>
       </provider>
     </entry>
