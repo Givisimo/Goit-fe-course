@@ -69,9 +69,7 @@ header {
 }
 
 .navigation {
-    position: absolute;
-    right: 0;
-
+    float: right;
 }
 
 .navigation-list_item-link {
@@ -213,7 +211,7 @@ header {
 }
 
 .hover {
-    display: none;
+    /*display: none;*/
     position: absolute;
     top: 0;
     right: 0;
@@ -233,16 +231,15 @@ header {
 }
 
 .inline {
+    margin: 75px 5px 10px 0;
     display: inline-block;
     width: 50px;
     height: 50px;
-    margin-right: 5px;
     font-size: 1.5rem;
     border: 1px solid white;
     background-color: transparent;
     color: var(--main-text-color);
     line-height: 50px;
-    margin-bottom: 10px;
     padding: 0;
     cursor: pointer;
 }
@@ -256,6 +253,10 @@ header {
     border: 1px solid #1abc9c;
 }
 
+.heart {
+    margin-left: 32px;
+}
+
 .lower {
     margin: 0 auto;
     text-align: center;
@@ -264,25 +265,26 @@ header {
 }
 
 .add {
+    display: block;
+    margin: 0 auto;
     border: 1px solid white;
     color: var(--main-text-color);
     line-height: 50px;
     background-color: #323232;
-    padding: 0;
+    font-family: var(--open-sans-font);
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .add:hover {
     background-color: #1abc9c;
     border: 1px solid #1abc9c;
 }
 
-.add-text {
-    display: inline;
-    padding-left: 20px;
-    font-family: var(--open-sans-font);
-    font-size: 14px;
-    text-transform: uppercase;
-
+.fa-cart-plus {
+    margin-right: 20px;
 }
+
 
 .product-item-name, .product-item-price {
     display: inline-block;
